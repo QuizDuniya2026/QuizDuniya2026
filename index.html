@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2457c5"><meta name="description" content="Quiz Duniya - Hindi and English daily quiz">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png">
+<title>Quiz दुनिया</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand"><div class="logo">Q</div><div><h1>Quiz दुनिया</h1><small>Learn • Play • Improve</small></div></div><button id="lang">English</button></header>
+<main>
+<section class="stats"><div><b id="points">0</b><small>Points</small></div><div><b id="streak">1</b><small>Streak*</small></div><div><b id="rank">—</b><small>Rank</small></div></section>
+<section class="panel" id="home"><h2 id="welcome">आज का क्विज</h2><p id="intro">GK, Science और History के सवालों से अपना ज्ञान बढ़ाएँ।</p><button class="primary" id="start">क्विज शुरू करें</button><h3>कैटेगरी</h3><div class="categories"><span>🌍 General Knowledge</span><span>🔬 Science</span><span>📚 History</span></div><button class="secondary" id="leader">Leaderboard देखें</button></section>
+<section class="panel hidden" id="quiz"><div class="progress"><div id="bar"></div></div><small id="counter"></small><h2 id="question"></h2><div id="answers"></div><p id="feedback"></p><button class="primary hidden" id="next">अगला सवाल</button></section>
+<section class="panel hidden" id="result"><div class="trophy">🏆</div><h2 id="complete">क्विज पूरा हुआ!</h2><b class="score" id="score"></b><p id="earned"></p><button class="primary" id="again">फिर से खेलें</button><button class="secondary" id="back">होम पर जाएँ</button></section>
+<section class="panel hidden" id="board"><h2>🏆 Leaderboard</h2><ol><li>Rahul <b>120 pts</b></li><li>Priya <b>100 pts</b></li><li>Aman <b>80 pts</b></li></ol><p class="note">यह नमूना सूची है। ऑनलाइन रैंकिंग बाद में जोड़ी जाएगी।</p><button class="secondary" id="boardback">वापस</button></section>
+<p class="foot">Quiz Duniya • Version 1.0 • Offline demo</p>
+</main><script src="app.js"></script>
+</body></html>
